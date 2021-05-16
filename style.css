@@ -16,7 +16,6 @@ body{
   width: 730px;
   height: 280px;
   align-self: center;
-  border: 1px solid black;
   border-radius: 15px;
   overflow: hidden;
   background: white;
@@ -36,12 +35,43 @@ body{
 h1{
   font-size: 20px;
   color: hsl(217, 19%, 35%);
+  margin-bottom: 20px;
 }
 h4{
   font-size: 13px;
   color: hsl(214, 17%, 51%);
   font-weight: 500;
+  margin-bottom: 20px;
 }
 .profile{
   font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+#profileimg{
+  background: url(avatar-michelle.jpg) no-repeat;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+}
+#profileinfo{
+  display: flex;
+}
+#name{
+  margin-left: 10px;
+}
+#share{
+  background: hsl(210, 46%, 95%) url(icon-share.svg) no-repeat center;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+#michelle{
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+}
+#date{
+  color: hsl(212, 23%, 69%);
+  font-weight: 500;
 }
