@@ -1,8 +1,3 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body{
   display: flex;
   flex-direction: column;
@@ -10,6 +5,7 @@ body{
   height: 100vh;
   font-family: 'Manrope', sans-serif;
   background: hsl(210, 46%, 95%);
+  justify-content: center;
 }
 #main{
   display: flex;
@@ -74,4 +70,27 @@ h4{
 #date{
   color: hsl(212, 23%, 69%);
   font-weight: 500;
+}
+@media only screen and (max-width: 375px){
+  body{
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  #main{
+    flex-direction: column;
+    width: 325px;
+    height: 515px;
+  }
+  #image{
+    width: 325px;
+    height: 200px;
+  }
+  #wrapper{
+    width: 325px;
+    height: 315px;
+  }
+  h4{
+    margin-bottom: 30px;
+  }
 }
