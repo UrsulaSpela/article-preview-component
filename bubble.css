@@ -1,0 +1,21 @@
+#bubble{
+  width: 245px;
+  height: 55px;
+  background-color: hsl(217, 19%, 35%);
+  background-image: url(icon-twitter.svg), url(icon-facebook.svg), url(icon-pinterest.svg);
+  background-repeat: no-repeat;
+  background-position: 50%, 70%, 90%;
+  z-index: 10;
+  position: relative;
+  left: 200px;
+  top: -70px;
+  display: block;
+  border-radius: 10px;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  line-height: 55px;
+  padding-left: 20px;
+
+}
