@@ -11,11 +11,21 @@
   top: -70px;
   display: block;
   border-radius: 10px;
-  color: white;
+  color: hsl(210, 46%, 95%);
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 4px;
   line-height: 55px;
-  padding-left: 20px;
+  padding-left: 35px;
   display: none;
+}
+@media only screen and (max-width: 375px){
+  #bubble{
+    width: 220px;
+    height: 60px;
+    position: relative;
+    left: -250px;
+    top: 0;
+    padding: none;
+  }
 }
